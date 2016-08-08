@@ -1,10 +1,10 @@
-// GET YOUR KEY, SECRET, TOKEN, and TOKENSECRET FROM dev.twitter.com
+// GET YOUR KEY, SECRET, TOKEN, and TOKENSECRET FROM apps.twitter.com
 
 ConfigurationBuilder cb = new ConfigurationBuilder();
 cb.setDebugEnabled(true)
-  .setOAuthConsumerKey("***")
+  .setOAuthConsumerKey("****")
   .setOAuthConsumerSecret("****")
-  .setOAuthAccessToken("*****")
+  .setOAuthAccessToken("****")
   .setOAuthAccessTokenSecret("****");
 
 final TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
